@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
+
+
+body {
+    font-family: 'Nunito', sans-serif;
+      position: absolute;
+}
+div {
+    margin: 0; 
+    color: #FFFFFF;
+}
+
+.page {
+    background-color:  #41309B;;
+    position: absolute;
+}
+div.page {
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-areas: "c1 c2";
+}
+.top {
+    grid-area: c1;
+    padding: 10% 10%; 
+}
